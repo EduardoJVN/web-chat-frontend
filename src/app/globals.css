@@ -1,31 +1,46 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+@theme {
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --font-display: "Satoshi", "sans-serif";
-  --breakpoint-3xl: 1920px;
-  --color-black: #000000;
-  --color-primary: #ff704a;
-  --color-dark-grey: #757575;
-  --color-light-grey: #f2f2f2;
-  --color-med-grey: #d5d5d5;
-  --color-light-red: #fcb5c3;
-  --color-red: #ff002f;
+  
+  --color-primary: #3B82F6;
+  --color-primary-hover: #2563EB;
+  --color-secondary: #8B5CF6;
+  --color-success: #10B981;
+  --color-error: #EF4444;
+  --color-warn: #F59E0B;
+  --color-info: #0EA5E9;
+
+  --color-bubble-user : #E5E7EB;
+  --color-bubble-guest : #DBEAFE;
+  --color-testcolor: red;
+}
+
+:root {
+  --background: #FFFFFF;
+  --foreground: #1F2937;
+
+  --color-bubble-user : #E5E7EB;
+  --color-bubble-guest : #DBEAFE;
+  --color-testcolor: blue;
+}
+
+.dark {
+  --background: #111827;
+  --foreground: #F3F4F6;
+
+  --color-bubble-user : #1F2937;
+  --color-bubble-guest : #1E40AF;
+  --color-testcolor: red;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  /* :root {
+    --background: #111827;
+    --foreground: #F3F4F6;
+  } */
 }
 
 body {
@@ -33,3 +48,4 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
