@@ -7,33 +7,59 @@
   
   --color-primary: #3B82F6;
   --color-primary-hover: #2563EB;
+
+  --color-bg-primary: #cfcfcf;
+  --color-bg-secondary: #3B82F6;
+  
   --color-secondary: #8B5CF6;
   --color-success: #10B981;
   --color-error: #EF4444;
   --color-warn: #F59E0B;
   --color-info: #0EA5E9;
 
+  --color-online: #38f705;
+  --color-online-100: #9bf783;
+  
+  --color-absent: #f7cf05;
+  --color-busy: #f71304;
+  --color-offline: #959191;
+  --color-gray-default: #adadad;
+
+
+  --color-background: #FFFFFF;
+  --color-foreground: #1F2937;
+
+  --color-button-default: #d5d5d5;
+  --color-button-default-via: #e5e4e4;
+  --color-button-default-to: #f5f4f4;
+  
+
+  
+
+  
+
   --color-bubble-user : #E5E7EB;
   --color-bubble-guest : #DBEAFE;
-  --color-testcolor: red;
 }
 
 :root {
   --background: #FFFFFF;
   --foreground: #1F2937;
 
+  --color-background: #FFFFFF;
+  --color-foreground: #1F2937;
   --color-bubble-user : #E5E7EB;
   --color-bubble-guest : #DBEAFE;
-  --color-testcolor: blue;
 }
 
 .dark {
   --background: #111827;
   --foreground: #F3F4F6;
 
+  --color-background: #111827;
+  --color-foreground: #F3F4F6;
   --color-bubble-user : #1F2937;
   --color-bubble-guest : #1E40AF;
-  --color-testcolor: red;
 }
 
 @media (prefers-color-scheme: dark) {

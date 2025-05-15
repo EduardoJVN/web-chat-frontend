@@ -16,7 +16,7 @@ export default function ThemeSwitch() {
   return (
     <button
       onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-      className="p-2 rounded bg-testcolor"
+      className="p-2 rounded bg-primary"
     >
       {theme === 'dark' ? '🌞 Light Mode' : '🌙 Dark Mode'}
     </button>
